@@ -1,14 +1,5 @@
 //task1 
-let arr = [{
-  a: 1,
-  b: 2
-}, {
-  a: 2,
-  c: 3
-}, {
-  a: 1,
-  b: 2
-}];
+let arr = [{ a: 1, b: 2}, {a: 2, c: 3}, { a: 1, b: 2 }];
 
 let result = arr.reduce(function (unique, value) {
   if (
